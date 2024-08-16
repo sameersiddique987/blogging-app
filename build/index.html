@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login to your account 👏</h1>
+        <div class="social-login">
+            <button class="google" id="googleBtn" type="click">
+                <i class='bx bxl-google'></i>
+                Use Google
+            </button>
+            
+        </div>
+        <div class="divider">
+            <div class="line"></div>
+            <p>Or</p>
+            <div class="line"></div>
+        </div>
+
+        <form id="form">
+            <label for="email">Email:</label>
+            <div class="custome-input">
+                <input type="email" name="email" id="email"  placeholder="Your Email" autocomplete="off">
+                <i class='bx bx-at'></i>
+            </div>
+            <label for="password">Password:</label>
+            <div class="custome-input">
+                <input type="password" name="password" id="password" placeholder="Your Password">
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <button class="login" id="btn" type="submit">Login</button>
+            <div class="links">
+                
+                <a href="./rigister.html">Don't have an account?</a>
+            </div>
+        </form>
+
+<!-- <form id="form">
+    <input type="email" placeholder="Email" id="email">
+    <input type="password" placeholder="password" id="password">
+    <button type="submit">login</button>
+    <a href="./rigister.html">Not a user</a>
+
+    <button id="google" type="click">Use google</button>
+</form> -->
+
+<div id="div"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
